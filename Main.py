@@ -10,7 +10,7 @@ def predict():
 
 @app.route('/prediction',methods = ['POST', 'GET'])
 def result():
-	if request.method == 'POST':
+	if request.method == 'POST' or request.method == 'GET':
 		age = request.form.get('age')
 		education_number = request.form.get('education_number')
 		marital_status = request.form.get('marital_status')
