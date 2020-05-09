@@ -124,7 +124,7 @@ def result():
 		testing = testing.values.reshape(1,25)
 		
 			
-		with open(r'C:\Users\Deep Joshi\Desktop\Data Analysis\Machine Learning\Income Prediction\models\model_pickle_optimized_XGBoost','rb') as f:
+		with open('model_pickle_optimized_XGBoost','rb') as f:
 			mp = pickle.load(f)
 			rf = mp.predict(testing)
 	
