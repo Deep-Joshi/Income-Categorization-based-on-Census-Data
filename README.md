@@ -16,6 +16,10 @@ The 'static' folder contains all the static files (images, css,etc) used for dev
 
 'Dockerrun.aws.json' -> This file is specific to AWS. It allows services on AWS to access details about our application and docker configuration.
 
+'MLDemoTest.pem' -> .pem file for SSL Certificate installation require for accessing AWS virtual instance and transfer file
+
+'TestDemo.ppk' -> Putty private key file. Required to communicate with virtual instance securly 
+
 'requirements.txt' -> Contains all the dependencies required to be installed in order to run this application.
 
 Steps to run the application locally:
