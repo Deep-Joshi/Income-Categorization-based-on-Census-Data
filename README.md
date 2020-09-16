@@ -18,7 +18,7 @@ The 'static' folder contains all the static files (images, css,etc) used for dev
 
 'MLDemoTest.pem' -> .pem file for SSL Certificate installation require for accessing AWS virtual instance and transfer file
 
-'TestDemo.ppk' -> Putty private key file. Required to communicate with virtual instance securly 
+'TestDemo.ppk' -> Putty private key file. Required to communicate with virtual instance securely 
 
 'requirements.txt' -> Contains all the dependencies required to be installed in order to run this application.
 
