@@ -22,5 +22,7 @@ The 'static' folder contains all the static files (images, css,etc) used for dev
 
 'requirements.txt' -> Contains all the dependencies required to be installed in order to run this application.
 
+'Cloud_Shell_Commands_-_Google_Kubernetes_Engine.pdf' - File containing commands used to deploy the containerized application on Google Kubernetes Engine(GKE) using cloud shell
+
 Steps to run the application locally:
 Open Command Prompt -> Change the path to a location that contains all these files -> Type 'python Main.py' -> Hit the url on the browser.
